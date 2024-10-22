@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e5d3a4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e5d3a4;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.music-player {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.music-player h2 {
+    text-align: center;
+}
+
+.album-art img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.song-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-bar input[type="range"] {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.play-pause {
+    font-size: 32px;
+    color: #d2b77b;
+}
+
+.device {
+    text-align: center;
+    background-color: #f6e6be;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.queue {
+    width: 60%;
+}
+
+.track {
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+/* .queue-track-vedio{
+    width: 100px;
+    border-radius: 15px;
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+} */
+
+.track img {
+    width: 100px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.track-info h4 {
+    margin-bottom: 5px;
+}
+
+.track-info p {
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.track-progress {
+    display: flex;
+    align-items: center;
+}
+
+.track-progress input[type="range"] {
+    flex: 1;
+    margin-right: 10px;
+}

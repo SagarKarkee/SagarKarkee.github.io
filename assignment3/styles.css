@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B4C3B4;
+    color: #333;
+}
+
+header {
+    background-color: #B4C3B4;
+    padding: 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+.sign-up {
+    background-color: #070707;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* Container styling */
+.mental-goat-section {
+    background-color: #d1e0d1; 
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.mental-goat-content {
+    width: 50%;
+}
+
+.mental-goat-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.mental-goat-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.mental-goat-button {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.mental-goat-button:hover {
+    background-color: #333;
+}
+
+
+.mental-goat-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+.mental-goat-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.mental-goat-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.stat-item {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.stat-item span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Container styling */
+.services-section {
+    background-color: #d1e0d1; 
+    padding: 40px;
+}
+
+.services-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.services-title:before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin-right: 10px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-item {
+    text-align: left;
+    max-width: 300px;
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.service-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+.service-item:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d1e0d1; 
+    padding: 40px;
+}
+
+
+.section-image {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.section-content {
+    width: 45%;
+    padding-left: 30px;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.service-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.service-link:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+.section-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-button:hover {
+    background-color: #333;
+}
+
+
+footer {
+    background-color: #B4C3B4;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
